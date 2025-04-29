@@ -189,6 +189,7 @@ import: https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
 # LiaScript & Kollaboration: OER Hackathon 2025
 
 https://LiaScript.github.io
+---------------------------
 
 [qr-code](https://github.com/LiaPlayground/OER-Hackathon-2025-Lightning-Talk)
 
@@ -201,18 +202,46 @@ https://LiaScript.github.io
 ## Kollaboration
 
 https://github.com/TUBAF-IfI-LiaScript/
+---------------------------------------
 
+    {{1}}
 !?[Kollaborative OER Erstellung auf GitHUb](media/liascript-github.mp4)<!-- autoplay -->
 
-## Basics
+## Ein Dokument verschiedene Darstellungen
 
-LiaScript ist eine Erweiterungen von Markdown zur Erstellung von interaktiven Inhalten.
+                  --{{0}}--
+Hallo, ich bin ein Markdown-Dokument, das im Lehrbuchmodus, als Folien oder als interaktive Präsentation dargestellt werden kann. Ändere den Präsentationsmodus und schau, was passiert.
 
+                  --{{1}}--
+Jeder Markdown-Block kann mit zwei geschweiften Klammern und einer Zahl versehen werden, um festzulegen, wann dieser Block in der Präsentation erscheinen soll.
 
+                    {{1}}
+* Diese Liste wird bei Schritt 1 sichtbar
+* und wird nicht entfernt
+
+                  --{{2}}--
+Im Gegensatz dazu wird die folgende Tabelle nur bei Schritt 2 sichtbar.
+
+                   {{2-3}}
+| Tier            |	Gewicht in kg | Lebensdauer Jahre |
+|-----------------|--------------:|------------------:|
+| Maus            |	        0.028 |                02 |
+| Schaf           |	           90 |                12 |
+| Mensch          |	           68 |                70 |
+
+                 --{{3}}--
+Wie du vielleicht erwartest, bin ich ein Kommentar für Animationsschritt 3. Ich werde im Lehrbuchmodus sichtbar sein oder in den anderen Modi laut vorgelesen werden. Versuche, das Dokument in eine andere Sprache zu übersetzen und schau, was passiert.
+
+                   {{3}}
+```
+Kommentare in LiaScript werden mit zwei Klammern gekennzeichnet,
+die von zwei Strichen umgeben sind. Sie sollen nützliche
+Informationen über den Animationsschritt enthalten.
+```
+                   {{3}}
+> __Um die Google-Übersetzung zu deaktivieren, musst du diese Seite neu laden.__
 
 ### Quizze
-
-
 
 Wann wurde Göttingen gegründet?
 
@@ -220,7 +249,7 @@ Wann wurde Göttingen gegründet?
 - [( )] zwischen 1150 und 1200 n. Chr.
 - [(X)] 1230 n. Chr.
 
-
+#### Mehr
 
                     {{UK English Male |>}}
 The film that I saw [[(that)|those|these|then]] night wasn’t very good.
@@ -228,13 +257,28 @@ It was all [[ about ]] a man [[ who ]] built a
 time machine so he [[ could ]] travel back in time.
 It took him ages and ages [[ to ]] build the machine.
 
+    {{2}}
+<!-- data-title="LMS market share 2022 (North America)" -->
+| Brightspace    | Canvas          | Classroom      | Moodle          | Others         | Schoology      |
+|:--------------:|:---------------:|:--------------:|:---------------:|:--------------:|:--------------:|
+| [[(3 %)|11 %]] | [[13 %|(28 %)]] | [[8 %|(24 %)]] | [[(11 %)|31 %]] | [[2 %|(12 %)]] | [[7 %|(22 %)]] |
+
+---
+
+    {{3}}
+| LMS | Average cost per month   |
+|-----|--------------------------|
+| Brightspace | [[13 $|(80 $)]]  |
+| Canvas      | [[(10 $)|99 $]]  |
+| Classroom   | [[(0 free)|3 $]] |
+| Moodle      | [[11 $ |(15 $)]] |
+| Schoology   | [[(4 $)|12 $]]   |
+
 ### oEmbed ??
 
-??[](https://sketchfab.com/3d-models/goettingen-gauss-weber-denkmal-monument-a8c83c264df849c9abf2c50dfac99802 "Das Denkmal steht für die Öffentlichkeit zur Betrachtung auf dem Göttinger Stadtwall. Es handelt sich hierbei um einen High End 3D Photogrammetrie-Scan. Auszug aus Wikipedia: Johann Carl Friedrich Gauß (latinisiert Carolus Fridericus Gauss; * 30. April 1777 in Braunschweig; † 23. Februar 1855 in Göttingen) war ein deutscher Mathematiker, Astronom, Geodät und Physiker. Wegen seiner überragenden wissenschaftlichen Leistungen galt er bereits zu seinen Lebzeiten als Princeps Mathematicorum („Fürst der Mathematiker; Erster unter den Mathematikern“).")
+??[SketchFab Göttingen](https://sketchfab.com/3d-models/goettingen-gauss-weber-denkmal-monument-a8c83c264df849c9abf2c50dfac99802 "Das Denkmal steht für die Öffentlichkeit zur Betrachtung auf dem Göttinger Stadtwall. Es handelt sich hierbei um einen High End 3D Photogrammetrie-Scan. Auszug aus Wikipedia: Johann Carl Friedrich Gauß (latinisiert Carolus Fridericus Gauss; * 30. April 1777 in Braunschweig; † 23. Februar 1855 in Göttingen) war ein deutscher Mathematiker, Astronom, Geodät und Physiker. Wegen seiner überragenden wissenschaftlichen Leistungen galt er bereits zu seinen Lebzeiten als Princeps Mathematicorum („Fürst der Mathematiker; Erster unter den Mathematikern“).")
 
-### Sprachausgaben
-
-
+??[Falstad Circuit Sim](https://www.falstad.com/circuit/circuitjs.html)
 
 ## Erweiterungen
 
@@ -259,11 +303,9 @@ A4 | G8F8 | G4e4d4
 c2A2 | B8A8 | G8z8
 ```
 
+### Programmierung
 
-
-## Programmierung
-
-### SparQL
+#### SparQL
 
 https://github.com/LiaTemplates/Communica
 
@@ -277,25 +319,11 @@ SELECT ?s ?p ?o WHERE {
 ```
 @Communica.SPARQL
 
-### Musik mit ABCjs
 
-```abc
-X: 1
-M: 4/4
-L: 1/8
-K: Emin
-|:D2|"Em"EBBA B2 EB|~B2 AB dBAG|"D"FDAD BDAD|FDAD dAFD|
-"Em"EBBA B2 EB|B2 AB defg|"D"afe^c dBAF|"Em"DEFD E2:|
-```
-@ABCJS.eval
-
-
-### WebSerial & MicroPython
+#### WebSerial & MicroPython
 <!--
 persistent: true
 -->
-
-
 
 ``` python
 from microbit import *
@@ -423,7 +451,9 @@ Kreis(M, 16, "Kreis");
 
 ## Klassenräume
 
-
+![Simpsons Schule](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDZjYW1vYmgxd3Y4Ynl5emxrOXVnbmQ2MHRoNzl5MGJpYmt4dTE4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UGXZWnlUlv1AI/giphy.gif)<!--
+style="width: 100%"
+-->
 
 ## Remote Labore: Edrys-Lite
 
