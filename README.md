@@ -7,6 +7,7 @@ narrator: Deutsch Female
 
 import: https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
         https://raw.githubusercontent.com/LiaTemplates/GGBScript/refs/heads/main/README.md
+        https://raw.githubusercontent.com/LiaTemplates/Communica/0.0.2/README.md
 
 @WebSerial
 <script>
@@ -203,12 +204,78 @@ https://github.com/TUBAF-IfI-LiaScript/
 
 !?[Kollaborative OER Erstellung auf GitHUb](media/liascript-github.mp4)<!-- autoplay -->
 
-## Demo
+## Basics
 
+LiaScript ist eine Erweiterungen von Markdown zur Erstellung von interaktiven Inhalten.
+
+
+
+### Quizze
+
+
+
+Wann wurde Göttingen gegründet?
+
+- [( )] 953 n. Chr.
+- [( )] zwischen 1150 und 1200 n. Chr.
+- [(X)] 1230 n. Chr.
+
+
+
+                    {{UK English Male |>}}
+The film that I saw [[(that)|those|these|then]] night wasn’t very good.
+It was all [[ about ]] a man [[ who ]] built a
+time machine so he [[ could ]] travel back in time.
+It took him ages and ages [[ to ]] build the machine.
+
+### oEmbed ??
+
+??[](https://sketchfab.com/3d-models/goettingen-gauss-weber-denkmal-monument-a8c83c264df849c9abf2c50dfac99802 "Das Denkmal steht für die Öffentlichkeit zur Betrachtung auf dem Göttinger Stadtwall. Es handelt sich hierbei um einen High End 3D Photogrammetrie-Scan. Auszug aus Wikipedia: Johann Carl Friedrich Gauß (latinisiert Carolus Fridericus Gauss; * 30. April 1777 in Braunschweig; † 23. Februar 1855 in Göttingen) war ein deutscher Mathematiker, Astronom, Geodät und Physiker. Wegen seiner überragenden wissenschaftlichen Leistungen galt er bereits zu seinen Lebzeiten als Princeps Mathematicorum („Fürst der Mathematiker; Erster unter den Mathematikern“).")
+
+### Sprachausgaben
+
+
+
+## Erweiterungen
+
+https://github.com/topics/liascript-template
+--------------------------------------------
+
+    {{1}}
+``` abc  @ABCJS.render
+% channel: 0
+X:353
+T: GLUECK AUF DER STEIGER KOEMMT
+O: Europa, Mitteleuropa, Deutschland
+R: Staende -, Bergmanns - Lied
+M: 4/4
+L: 1/16
+K: G
+ | G8F4A4 | G8z8 |
+B8A4c4 | B8z4
+G2A2 | B4B4B4A2B2 | c4A3AA4
+A2B2 | c4c4c4B2c2 | d4B3BB4
+A4 | G8F8 | G4e4d4
+c2A2 | B8A8 | G8z8
+```
 
 
 
 ## Programmierung
+
+### SparQL
+
+https://github.com/LiaTemplates/Communica
+
+``` sql
+# source: https://fragments.dbpedia.org/2015/en
+
+SELECT ?s ?p ?o WHERE {
+  ?s ?p <http://dbpedia.org/resource/Ukraine>.
+  ?s ?p ?o
+} LIMIT 10
+```
+@Communica.SPARQL
 
 ### Musik mit ABCjs
 
@@ -357,5 +424,11 @@ Kreis(M, 16, "Kreis");
 ## Klassenräume
 
 
-## Remote Labore
 
+## Remote Labore: Edrys-Lite
+
+https://edrys-labs.github.io
+
+!?[YouTube 1](https://www.youtube.com/watch?v=6ZjGHorc2ds "link: https://cross-lab.org/deploying-remote-labs-in-seconds-with-edrys-lite/")
+!?[YouTube 2](https://www.youtube.com/watch?v=Uv79Y8EhBVw "link: https://cross-lab.org/crosslab-at-university-future-festival/")
+!?[YouTube 3](https://www.youtube.com/watch?v=Lri9IQBPJLU "link: https://cross-lab.org/crosslab-at/")
