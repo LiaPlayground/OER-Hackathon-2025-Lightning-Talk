@@ -185,11 +185,23 @@ import: https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
 
 
 
-# LiaScript: OER Hackathon 2025
+# LiaScript & Kollaboration: OER Hackathon 2025
 
+https://LiaScript.github.io
+
+[qr-code](https://github.com/LiaPlayground/OER-Hackathon-2025-Lightning-Talk)
+
+> __GitHub:__ https://github.com/LiaPlayground/OER-Hackathon-2025-Lightning-Talk
+>
+> __LiaScript:__ https://LiaScript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/OER-Hackathon-2025-Lightning-Talk/refs/heads/main/README.md
+>
+> __LiveEditor:__ https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/OER-Hackathon-2025-Lightning-Talk/refs/heads/main/README.md
+
+## Kollaboration
+
+https://github.com/TUBAF-IfI-LiaScript/
 
 !?[Kollaborative OER Erstellung auf GitHUb](https://private-user-images.githubusercontent.com/10922356/293702414-00a24602-dc63-4b9a-894b-80967b914513.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDU4NzM0MDIsIm5iZiI6MTc0NTg3MzEwMiwicGF0aCI6Ii8xMDkyMjM1Ni8yOTM3MDI0MTQtMDBhMjQ2MDItZGM2My00YjlhLTg5NGItODA5NjdiOTE0NTEzLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDI4VDIwNDUwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkZjlmYTE5ZTc5MDJiZjQ2NGJhNTQxMGZkMjNlOTVkNWNjZjA2ZDFmZjQzMzY1YmRlZmQ5YjE1OTc5ZTY1Y2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.0e7TkA2Xp11TV3-dkOxnb_HDv_JD-X4Qdd6U1keIWK4)
-
 
 ## Demo
 
